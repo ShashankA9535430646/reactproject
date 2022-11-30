@@ -1,0 +1,202 @@
+.navbar{
+    display: flex;
+    background: linear-gradient(165deg,rgb(2, 94, 120),rgb(0, 0, 0));
+    padding: 15px 05px;
+    justify-content: space-between;
+    align-items: center;
+}
+.disney{
+  width:150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.links a{
+  color: rgb(202, 200, 200);
+  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin: 0px 15px;
+}
+.links a:hover{
+  color:rgb(246, 243, 243)
+
+}
+.navbar a div{
+    width:18px;
+    height:2.2px;
+    margin-top: 2.5px;
+    background:transparent;
+    background-color: rgb(151, 151, 147);
+    border-radius: 2px;
+}
+
+a:hover div{
+  background-color: rgb(217, 211, 211);
+  border-radius: 2px;
+}
+.home{
+  background: linear-gradient(135deg,rgb(2, 94, 120),rgb(0, 7, 13));
+  text-align: center;
+  justify-content: center;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+.pos{
+  display:flex;
+  margin: 10px 105px;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  width:450px;
+  text-align: left;
+  padding:95px 40px;
+  background: linear-gradient(90deg,black,transparent);
+  color: white;
+  height: 225px;
+}
+.text h1{
+  padding :5px 0px;
+}
+.text p1{
+  color: rgb(155, 155, 151);
+  font-weight: 500;
+}
+.text p2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:large;
+}
+
+.poster{
+  height: 415px;
+}
+.pos:hover{
+  box-shadow: 0px 0px 25px black;
+}
+.movies img{
+  margin: 20px 5px;
+  border-radius: 5px;
+}
+.movies img:hover{
+  
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+  /* outline:solid 3px rgb(27, 95, 213); */
+  box-shadow: 0px 0px 25px rgb(14, 13, 13);
+}
+.fav{
+  background:rgb(9, 50, 62);
+  padding: 10px 0px ;
+  text-align: center;
+}
+.fav h1{
+  color:aliceblue;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 400px;
+  background: linear-gradient(90deg,rgb(82, 80, 80),black,rgb(82, 80, 80));
+}
+.fav button{
+  background-color: rgb(9, 66, 102);
+  color:whitesmoke
+}
+.fav button :hover{
+  background-color: rgb(5, 29, 80);
+}
+.list{
+  padding: 10px;
+}
+h2{
+  background: linear-gradient(90deg,rgb(5, 131, 156),rgb(255, 255, 255),rgb(5, 131, 156));
+}
+p{
+  color: rgb(121, 210, 230);
+  font-size: larger;
+  font-weight:200 ;
+}
+.footer{
+  text-align: center;
+  background-color: rgb(31, 30, 30);
+  padding:20px 0px;
+}
+.footer a{
+  color:rgb(34, 93, 148);
+  text-decoration: none;
+  margin: 0px 10px;
+}
+.footer p{
+  color: white;
+  font-size: medium;
+  font-weight: 100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.addfav{
+  display: flex;
+  background-color: rgb(127, 127, 136);
+  align-items: center;
+  justify-content:center;
+  
+}
+
+.addfav form {
+  background-color: rgb(255, 255, 255);
+  width:400px;
+  height:500px;
+ 
+}
+.textform{
+  background: linear-gradient(135deg,rgb(2, 94, 120),rgb(0, 7, 13)); 
+  width:400px;
+  height:500px;
+}
+.form img{
+  margin-top: 20px;
+  margin-left: 128px;
+  margin-bottom: 10px;
+}
+
+.addfav form input{
+  display: block;
+  margin: 20px 45px;
+  border: solid 2px rgb(2, 41, 76);
+  border-radius: 5px;
+  height:32px;
+  width:300px;
+}
+.addfav form button{
+  background-color: rgb(2, 41, 76);
+  color:aliceblue;
+  border: none;
+  font-size: 20px;
+  padding: 8px 0px;
+  border-radius: 2px;
+  width:308px;
+  margin: 0px 45px;
+}
+.addfav form button:hover{
+  transition-duration: 0.1s;
+  color:rgb(255, 255, 255);
+  background-color: rgb(18, 75, 75);
+}
+.textform h1{
+  color: white;
+  padding-top: 150px;
+  padding-left: 4   0px;
+  text-align: left;
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.abouttext h1{
+  color:white;
+  font-size:35px;
+}
+.abouttext p{
+  color:white;
+}
